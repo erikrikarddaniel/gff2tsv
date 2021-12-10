@@ -5,7 +5,6 @@
 # Author: daniel.lundin@dbb.su.se
 
 suppressPackageStartupMessages(library(optparse))
-suppressPackageStartupMessages(library(readr))
 suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(dtplyr))
 suppressPackageStartupMessages(library(dplyr))
@@ -17,6 +16,7 @@ SCRIPT_VERSION = "0.1"
 
 options(warn = 1)
 
+# Test: opt <- list(options = list(verbose = TRUE, version = FALSE), args = Sys.glob('gff2tsv.00.d/*.gff.gz'))
 # Get arguments
 option_list = list(
   make_option(
@@ -44,6 +44,7 @@ if ( opt$options$version ) {
 DEBUG   = 0
 INFO    = 1
 WARNING = 2
+ERROR   = 3
 LOG_LEVELS = list(
   DEBUG   = list(n = 0, msg = 'DEBUG'),
   INFO    = list(n = 1, msg = 'INFO'),
@@ -51,15 +52,23 @@ LOG_LEVELS = list(
   ERROR   = list(n = 3, msg = 'ERROR')
 )
 logmsg    = function(msg, llevel='INFO') {
-  if ( opt$options$verbose | LOG_LEVELS[[llevel]][["n"]] >= LOG_LEVELS[["INFO"]][["n"]] ) {
-    write(
-      sprintf("%s: %s: %s", llevel, format(Sys.time(), "%Y-%m-%d %H:%M:%S"), msg),
-      stderr()
-    )
-  }
+    if ( opt$options$verbose || LOG_LEVELS[[llevel]][["n"]] >= LOG_LEVELS[["INFO"]][["n"]] ) {
+        write(
+            sprintf("%s: %s: %s", LOG_LEVELS[[llevel]][['msg']], format(Sys.time(), "%Y-%m-%d %H:%M:%S"), msg),
+            stderr()
+        )
+    }
 }
 
-for ( f in options$args ) {
-    logmsg(sprintf("Reading %s", f), DEBUG)
+for ( f in opt$args ) {
+    logmsg(sprintf("Reading %s", f), 'DEBUG')
+    fread(
+        cmd = sprintf("%s %s | grep -P '\\t'", ifelse(grepl('\\.gz$', f), "gunzip -c", "cat"), f),
+        sep = '\t',
+        col.names = c('seqname', 'source', 'feature', 'start', 'end', 'score', 'strand', 'frame', 'attribute')
+    ) %>%
+        separate_rows(attribute, sep = ';') %>%
+        separate(attribute, c('attr', 'value'), sep = '=') %>%
+        pivot_wider(names_from = attr, values_from = value) %>%
+        fwrite(sprintf("%s.tsv.gz", str_remove(f, '.gff*')), sep = '\t')
 }
-logmsg("Done")

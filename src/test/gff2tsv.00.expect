@@ -1,0 +1,53 @@
+seqname	source	feature	start	end	score	strand	frame	ID	inference	locus_tag	product	note	rpt_family	rpt_type	rpt_unit_seq	eC_number	Name	db_xref	gene
+ABHB01000005.1	Prodigal:002006	CDS	2616	2873	.	-	0	EJNIGKKA_00001	ab initio prediction:Prodigal:002006	EJNIGKKA_00001	hypothetical protein								
+ABHB01000004.1	minced:0.4.2	repeat_region	15	9402	.	.	.					CRISPR with 139 repeat units	CRISPR	direct	GTTTCAAATCTACTATAGTCTTATTTCTAGC				
+ABHB01000004.1	Prodigal:002006	CDS	9749	10012	.	-	0	EJNIGKKA_00002	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q9X2B6	EJNIGKKA_00002	CRISPR-associated endoribonuclease Cas2					3.1.-.-	cas2_1	COG:COG1343	cas2_1
+ABHB01000004.1	Prodigal:002006	CDS	10033	10740	.	-	0	EJNIGKKA_00003	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:O66692	EJNIGKKA_00003	CRISPR-associated endonuclease Cas1					3.1.-.-	cas1_1	COG:COG1518	cas1_1
+ABHB01000004.1	Prodigal:002006	CDS	10737	10997	.	-	0	EJNIGKKA_00004	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q9X2B7	EJNIGKKA_00004	CRISPR-associated endonuclease Cas1					3.1.-.-	cas1_2	COG:COG1518	cas1_2
+ABHB01000004.1	Prodigal:002006	CDS	11140	11682	.	-	0	EJNIGKKA_00005	ab initio prediction:Prodigal:002006	EJNIGKKA_00005	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	11838	13409	.	-	0	EJNIGKKA_00006	ab initio prediction:Prodigal:002006	EJNIGKKA_00006	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	13369	14328	.	-	0	EJNIGKKA_00007	ab initio prediction:Prodigal:002006	EJNIGKKA_00007	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	14328	15074	.	-	0	EJNIGKKA_00008	ab initio prediction:Prodigal:002006	EJNIGKKA_00008	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	15170	16261	.	-	0	EJNIGKKA_00009	ab initio prediction:Prodigal:002006	EJNIGKKA_00009	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	16352	17293	.	-	0	EJNIGKKA_00010	ab initio prediction:Prodigal:002006	EJNIGKKA_00010	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	17286	18677	.	-	0	EJNIGKKA_00011	ab initio prediction:Prodigal:002006	EJNIGKKA_00011	hypothetical protein								
+ABHB01000004.1	Prodigal:002006	CDS	18782	19534	.	-	0	EJNIGKKA_00012	ab initio prediction:Prodigal:002006	EJNIGKKA_00012	hypothetical protein								
+ABHB01000002.1	Aragorn:001002	tRNA	81085	81161	.	-	.	EJNIGKKA_00166	COORDINATES:profile:Aragorn:001002	EJNIGKKA_00166	tRNA-Asp(gtc)								
+ABHB01000002.1	barrnap:0.9	rRNA	81180	81285	3.3e-09	-	.	EJNIGKKA_00167		EJNIGKKA_00167	5S ribosomal RNA								
+ABHB01000002.1	Aragorn:001002	tRNA	81305	81380	.	-	.	EJNIGKKA_00168	COORDINATES:profile:Aragorn:001002	EJNIGKKA_00168	tRNA-Lys(ttt)								
+ABHB01000002.1	Aragorn:001002	tRNA	81384	81458	.	-	.	EJNIGKKA_00169	COORDINATES:profile:Aragorn:001002	EJNIGKKA_00169	tRNA-Tyr(gta)								
+ABHB01000002.1	Aragorn:001002	tRNA	81533	81609	.	-	.	EJNIGKKA_00170	COORDINATES:profile:Aragorn:001002	EJNIGKKA_00170	tRNA-Pro(tgg)								
+ABHB01000002.1	Aragorn:001002	tRNA	81645	81718	.	-	.	EJNIGKKA_00171	COORDINATES:profile:Aragorn:001002	EJNIGKKA_00171	tRNA-Thr(tgt)								
+ABHB01000002.1	Prodigal:002006	CDS	81928	82833	.	-	0	EJNIGKKA_00172	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q5SKD9	EJNIGKKA_00172	Pyridoxal 5'-phosphate synthase subunit PdxS					4.3.3.6	pdxS	COG:COG0214	pdxS
+ABHB01000002.1	Prodigal:002006	CDS	83162	83650	.	+	0	EJNIGKKA_00173	ab initio prediction:Prodigal:002006	EJNIGKKA_00173	hypothetical protein								
+ABHB01000002.1	Prodigal:002006	CDS	84022	85200	.	+	0	EJNIGKKA_00174	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q9KI10	EJNIGKKA_00174	Na(+)/H(+)-K(+) antiporter GerN						gerN_1	COG:COG0475	gerN_1
+ABHB01000002.1	Prodigal:002006	CDS	85429	85605	.	+	0	EJNIGKKA_00175	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P00198	EJNIGKKA_00175	4Fe-4S ferredoxin FdxA						fdxA		fdxA
+ABHB01000001.1	minced:0.4.2	repeat_region	1612182	1613450	.	.	.					CRISPR with 19 repeat units	CRISPR	direct	GTTTCAAATCTACTATAGTCTTATTTCTAGC				
+seqname	source	feature	start	end	score	strand	frame	ID	inference	locus_tag	product	Name	gene	eC_number	db_xref
+AE009951.2	Prodigal:002006	CDS	77	940	.	-	0	CABKKDON_00001	ab initio prediction:Prodigal:002006	CABKKDON_00001	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	1104	2279	.	-	0	CABKKDON_00002	ab initio prediction:Prodigal:002006	CABKKDON_00002	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	2703	3602	.	+	0	CABKKDON_00003	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:D5RAW5	CABKKDON_00003	Riboflavin transporter ImpX	impX	impX		
+AE009951.2	Prodigal:002006	CDS	3787	5226	.	+	0	CABKKDON_00004	ab initio prediction:Prodigal:002006	CABKKDON_00004	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	5283	6017	.	-	0	CABKKDON_00005	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q8FVN0	CABKKDON_00005	Nickel import ATP-binding protein NikE	nikE	nikE	7.2.2.11	
+AE009951.2	Prodigal:002006	CDS	6018	6800	.	-	0	CABKKDON_00006	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q2FVF0	CABKKDON_00006	Metal-staphylopine import system ATP-binding protein CntD	cntD	cntD	7.2.2.-	COG:COG0444
+AE009951.2	Prodigal:002006	CDS	6797	7600	.	-	0	CABKKDON_00007	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:Q2FVE9	CABKKDON_00007	Metal-staphylopine import system permease protein CntC	cntC	cntC		COG:COG1173
+AE009951.2	Prodigal:002006	CDS	7593	8522	.	-	0	CABKKDON_00008	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P33591	CABKKDON_00008	Nickel transport system permease protein NikB	nikB_1	nikB_1		COG:COG0601
+AE009951.2	Prodigal:002006	CDS	8537	10141	.	-	0	CABKKDON_00009	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P33590	CABKKDON_00009	Nickel-binding periplasmic protein	nikA_1	nikA_1		COG:COG0747
+AE009951.2	Aragorn:001002	tRNA	85236	85313	.	-	.	CABKKDON_00067	COORDINATES:profile:Aragorn:001002	CABKKDON_00067	tRNA-Asp(gtc)				
+AE009951.2	Aragorn:001002	tRNA	85322	85397	.	-	.	CABKKDON_00068	COORDINATES:profile:Aragorn:001002	CABKKDON_00068	tRNA-Val(tac)				
+AE009951.2	Aragorn:001002	tRNA	85409	85484	.	-	.	CABKKDON_00069	COORDINATES:profile:Aragorn:001002	CABKKDON_00069	tRNA-Phe(gaa)				
+AE009951.2	barrnap:0.9	rRNA	448253	448359	6.4e-08	-	.	CABKKDON_00436		CABKKDON_00436	5S ribosomal RNA				
+AE009951.2	barrnap:0.9	rRNA	448441	451334	0	-	.	CABKKDON_00437		CABKKDON_00437	23S ribosomal RNA				
+AE009951.2	barrnap:0.9	rRNA	451477	452991	0	-	.	CABKKDON_00438		CABKKDON_00438	16S ribosomal RNA				
+AE009951.2	Prodigal:002006	CDS	453255	453614	.	-	0	CABKKDON_00439	ab initio prediction:Prodigal:002006	CABKKDON_00439	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	453624	455012	.	-	0	CABKKDON_00440	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P15034	CABKKDON_00440	Xaa-Pro aminopeptidase	pepP	pepP	3.4.11.9	COG:COG0006
+AE009951.2	Prodigal:002006	CDS	455153	458230	.	-	0	CABKKDON_00441	ab initio prediction:Prodigal:002006	CABKKDON_00441	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	458490	459017	.	-	0	CABKKDON_00442	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P0A8D6	CABKKDON_00442	O-acetyl-ADP-ribose deacetylase	ymdB_2	ymdB_2	3.1.1.106	COG:COG2110
+AE009951.2	Prodigal:002006	CDS	459287	459589	.	-	0	CABKKDON_00443	ab initio prediction:Prodigal:002006	CABKKDON_00443	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	459867	460082	.	-	0	CABKKDON_00444	ab initio prediction:Prodigal:002006	CABKKDON_00444	hypothetical protein				
+AE009951.2	Aragorn:001002	tmRNA	1209221	1209564	.	-	.	CABKKDON_01157	COORDINATES:profile:Aragorn:001002	CABKKDON_01157	transfer-messenger RNA%2C SsrA	ssrA	ssrA		
+AE009951.2	Prodigal:002006	CDS	1209690	1210424	.	-	0	CABKKDON_01158	ab initio prediction:Prodigal:002006	CABKKDON_01158	hypothetical protein				
+AE009951.2	Prodigal:002006	CDS	1210753	1211472	.	+	0	CABKKDON_01159	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P27461	CABKKDON_01159	Lipoprotein YlpA	ylpA	ylpA		
+AE009951.2	Prodigal:002006	CDS	1211456	1213198	.	+	0	CABKKDON_01160	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P18159	CABKKDON_01160	Phosphoglucomutase	pgcA	pgcA	5.4.2.2	
+AE009951.2	Prodigal:002006	CDS	1213182	1214279	.	+	0	CABKKDON_01161	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P54304	CABKKDON_01161	Heme chaperone HemW	hemW_2	hemW_2		COG:COG0635
+AE009951.2	Prodigal:002006	CDS	1214295	1214966	.	+	0	CABKKDON_01162	ab initio prediction:Prodigal:002006,similar to AA sequence:UniProtKB:P44506	CABKKDON_01162	Pyridoxal phosphate homeostasis protein				COG:COG0325
