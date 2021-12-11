@@ -1,0 +1,25 @@
+{% set version = "0.1" %}
+
+package:
+  name: gff2tsv
+  version: {{ version }}
+
+source:
+  url: https://github.com/erikrikarddaniel/gff2tsv/archive/v{{ version }}.tar.gz
+
+build:
+  noarch: generic
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - r-dplyr >=1.0.0
+    - r-dtplyr
+    - r-tidyr
+    - r-data.table
+    - r-optparse
+    - r-stringi
+    - r-stringr

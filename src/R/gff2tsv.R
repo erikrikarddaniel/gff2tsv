@@ -9,7 +9,6 @@ suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(dtplyr))
 suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(tidyr))
-suppressPackageStartupMessages(library(purrr))
 suppressPackageStartupMessages(library(stringr))
 
 SCRIPT_VERSION = "0.1"
