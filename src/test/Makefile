@@ -10,7 +10,7 @@ clean:
 gff2tsv: gff2tsv.00 gff2tsv.01
 
 gff2tsv.00:
-	@../R/gff2tsv.R --verbose $@.d/*.gff.gz
+	@../R/gff2tsv.R $@.d/*.gff.gz
 	@$(CHECK)
 
 gff2tsv.01:
